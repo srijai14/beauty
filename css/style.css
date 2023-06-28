@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
     padding:0px;   
@@ -53,10 +54,10 @@ li a:hover{
 }
 .content h1{
     text-align: left;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 50px;
     color: black;
-    font-family: 'Great Vibes', cursive;
+    font-family:'Great Vibes', cursive;
 }
 .content p{
     font-family: Tahoma, Verdana, sans-serif;
@@ -109,16 +110,23 @@ li a:hover{
 .row1, .row2, .row3{
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 40px;
     display: block;
     margin-top: 30px;
-    margin-bottom: 40px;
+    
+}
+.brushes{
+    display: inline-block;
+    width: 22%;
+    height: 390px;
+    margin-left: 20px;
 }
 .brush{
     display: inline-block;
     border: 1px solid black;
-    width: 22%;
+    width: 100%;
     height: 320px;
-    margin-left: 20px;
+    
 }
 .brush h3{
     text-align: center;
@@ -141,3 +149,50 @@ li a:hover{
     margin-left: auto;
     margin-right: auto;
 }
+.order{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.order .buy1{
+  width: 14%;
+  height: 2px;
+  color: white;
+  border-radius: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f5ddb6;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-top: 17px;
+  margin-left: 2%;
+  text-transform: uppercase;
+}
+.order .buy2{
+    width: 14%;
+    height: 2px;
+    color: black;
+    border-radius: 20px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 17px;
+    margin-left: 1%;
+    text-transform: uppercase;
+  }
+  .order p{
+    float: right;
+    color: white;
+    text-align: right;
+    margin-right: 9px;
+    margin-top: 25px;
+    font-family: Arial, sans-serif;
+  }
