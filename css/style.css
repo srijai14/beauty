@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding:0px;   
+}
+.nav{
+    height: 60px;
+    background-color: #fef4ec;
+}
+.menu, .logo{
+    float: left;
+}
+
+.icons{
+    float: right;
+}
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+li a:hover{
+    color: darksalmon;
+}
+.logo img{
+   margin-left: 180px;
+   margin-top: 17px;
+}
+.icons {
+    display:inline-block;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+.icons a{
+    margin-left: 10px;  
+}
+.about-kit{
+    background-image: url("../image/banner-bg.png");
+    height: 600px;
+    width: 100%;
+}
+.content{
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-left: 110px;
+    margin-top: 90px;
+}
+.content h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+}
+.content p{
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #50504f;
+}
+.content a{
+  width: 22%;
+  height: 15px;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.content a:hover{
+    background-color: antiquewhite;
+    color: white;
+}
+.content1{
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.content1 img{
+    height: 500px;
+}
+.products{
+    margin-top: 90px;
+}
+.products h1{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 45px;
+}
+.products p{
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 17px;
+    color: #50504f;
+}
+.row1, .row2, .row3{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.brush{
+    display: inline-block;
+    border: 1px solid black;
+    width: 22%;
+    height: 320px;
+    margin-left: 20px;
+}
+.brush h3{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.brush p{
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    color: #50504f;
+    line-height: 1.5;
+}
+.brush img{
+    width: 80%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
