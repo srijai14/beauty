@@ -8,13 +8,16 @@
     .icons {
         margin-left: 100px;
     }
+    .about-kit{
+        height: 505px;
+    }
     .content{
         width: 40%;
         margin-left: 40px;
     }
     .content p{
-        width: 410px;
-        font-size: 20px;
+        width: 351px;
+        font-size: 17px;
         float: left;
         font-family: 'Open Sans', sans-serif;
     }
@@ -51,6 +54,10 @@
         margin-left: 28px;
         margin-bottom: 35px;
     }
+    .brush p{
+        width: 290px;
+        font-size: 14px;
+    }
     .order .buy1{
         padding-right: 1px;
         padding-left: 1px;
@@ -79,9 +86,11 @@
     }
     .stores h1{
         font-size: 30px;
+        width: 253px;
     }
     .stores p{
         font-size: 15px;
+        width: 305px;
     }
     .stores a{
         width: 40%;
