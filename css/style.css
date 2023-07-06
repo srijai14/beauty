@@ -468,7 +468,7 @@ li a:hover{
     margin-left: -50%;
     color: white;
     text-align: left;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     margin-top: -5%;
     font-size: 15px;
@@ -488,7 +488,8 @@ li a:hover{
 .foot-txt p{
     color: white;
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
     font-size: 16px;
 }
 
