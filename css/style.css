@@ -6,6 +6,8 @@ body{
 .nav{
     height: 60px;
     background-color: #fef4ec;
+    position: sticky;
+    top: 0;
 }
 
 .menu, .logo{
